@@ -1,0 +1,20 @@
+{
+  "name": "his-backend",
+  "version": "1.0.0",
+  "description": "Hospital Information System - Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "init-db": "node src/scripts/initDb.js",
+    "seed": "node src/scripts/seedDb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
