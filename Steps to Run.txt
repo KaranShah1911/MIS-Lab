@@ -1,0 +1,8 @@
+1) Open IDE in this directory /Project
+2) Execute the following commands
+	- cd backend
+	- npm start
+3) Open new terminal
+	- cd frontend
+	- npm run dev
+4) The website is live on http://localhost:5173/
